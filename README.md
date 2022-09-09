@@ -9,7 +9,7 @@ Main endpoint you can use is
 #### Get all user's repositories by login (username)
 
 ```http
-  GET /api/github/{login}/repositories
+  GET localhost:8080/api/github/{login}/repositories
 ```
 
 | Parameter | Type     | Description                              |
