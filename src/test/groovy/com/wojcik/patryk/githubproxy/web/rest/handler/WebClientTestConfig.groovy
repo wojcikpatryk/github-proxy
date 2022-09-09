@@ -1,4 +1,4 @@
-package com.wojcik.patryk.githubproxy.config.webclient
+package com.wojcik.patryk.githubproxy.web.rest.handler
 
 import okhttp3.mockwebserver.MockWebServer
 import org.springframework.context.annotation.Bean
