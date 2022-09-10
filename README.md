@@ -61,16 +61,26 @@ Example response when user not found:
 ```
 
 Example response when header `Accept` is invalid:
+
 ```json
 {
-    "statusCode": 406,
-    "message": "Invalid media type \"application/xml\": Invalid media type header"
+  "statusCode": 406,
+  "message": "Invalid media type \"application/xml\": Invalid media type header"
 }
+```
+
+## Swagger
+
+You can try it out on Swagger:
+
+```http
+GET http://localhost:8080/swagger-ui.html
 ```
 
 ## Installation
 
 In the `\github-proxy>` folder, run these commands:
+
 1. `mvn clean install`
 2. `docker build -t github-proxy .`
 3. `docker run --name github-proxy-app -p 8080:8080 github-proxy:latest`
